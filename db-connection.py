@@ -97,7 +97,7 @@ if __name__ == '__main__':
     row_counter = 0
     paired_rows = 0
 
-    with open('/home/abhishek/learn/projects/chatbot/sentdex/reddit/2015/{}'.format(timeframe), buffering=1000) as f:
+    with open('.../reddit/2015/{}'.format(timeframe), buffering=1000) as f:
         for row in f:
             row_counter += 1
 
